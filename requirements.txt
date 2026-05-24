@@ -1,0 +1,10 @@
+# 核心(樹蛙互動地圖 web pipeline 需要)
+pygbif>=0.6
+pandas
+h3>=4
+
+# 靜態圖 / pydeck(本機完整流程才需要)
+pydeck
+matplotlib
+contextily
+pyproj

@@ -1,0 +1,1139 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774362551",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2017,
+        "eventDate": "2017-02-17",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54,
+          24.94
+        ]
+      },
+      "properties": {
+        "gbifID": "3774349177",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-05-04",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774447171",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-05-04",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54,
+          24.94
+        ]
+      },
+      "properties": {
+        "gbifID": "3774459469",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-05-02",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774461465",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-05-02",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774354208",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-08-03",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774362519",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-08-03",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774446195",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-10-03",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83,
+          25.08
+        ]
+      },
+      "properties": {
+        "gbifID": "3774455470",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 2016,
+        "eventDate": "2016-10-17",
+        "datasetName": null,
+        "basisOfRecord": "OCCURRENCE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.235,
+          24.048
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482885",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2008,
+        "eventDate": "2008-06-21",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.235,
+          24.048
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482945",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2008,
+        "eventDate": "2008-06-21",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.197,
+          24.108
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482274",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2006,
+        "eventDate": "2006-03-09",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.336,
+          24.205
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482520",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2006,
+        "eventDate": "2006-03-10",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.197,
+          24.108
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482826",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2006,
+        "eventDate": "2006-03-09",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.197,
+          24.108
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482895",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2006,
+        "eventDate": "2006-03-09",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.336,
+          24.205
+        ]
+      },
+      "properties": {
+        "gbifID": "2248483300",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "BOLD:AAC0901",
+        "year": 2006,
+        "eventDate": "2006-03-10",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.17844,
+          24.1021
+        ]
+      },
+      "properties": {
+        "gbifID": "5147414517",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.23985,
+          24.04341
+        ]
+      },
+      "properties": {
+        "gbifID": "5147061519",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 1984,
+        "eventDate": "1984-08-05",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 6043.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.17844,
+          24.1021
+        ]
+      },
+      "properties": {
+        "gbifID": "5147179517",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 1984,
+        "eventDate": "1984-08-05",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.17844,
+          24.1021
+        ]
+      },
+      "properties": {
+        "gbifID": "5147413519",
+        "_intended_name": "Hynobius formosanus",
+        "species": "Hynobius formosanus",
+        "scientificName": "Hynobius formosanus Maki, 1922",
+        "year": 1984,
+        "eventDate": "1984-08-05",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.28,
+          24.044
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482084",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "BOLD:AAC2759",
+        "year": 2008,
+        "eventDate": "2008-06-21",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.28,
+          24.044
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482563",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "BOLD:AAC2759",
+        "year": 2008,
+        "eventDate": "2008-06-21",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.28,
+          24.044
+        ]
+      },
+      "properties": {
+        "gbifID": "2248483259",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "BOLD:AAC2759",
+        "year": 2008,
+        "eventDate": "2008-06-21",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.267,
+          24.141
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482593",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "BOLD:AAC2759",
+        "year": 2008,
+        "eventDate": "2008-08-15",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.267,
+          24.141
+        ]
+      },
+      "properties": {
+        "gbifID": "2248483396",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "BOLD:AAC2759",
+        "year": 2008,
+        "eventDate": "2008-08-15",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26687,
+          24.04793
+        ]
+      },
+      "properties": {
+        "gbifID": "5147061520",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24967,
+          24.04341
+        ]
+      },
+      "properties": {
+        "gbifID": "5147063518",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 6043.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24967,
+          24.0389
+        ]
+      },
+      "properties": {
+        "gbifID": "5147185520",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 6043.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24967,
+          24.04341
+        ]
+      },
+      "properties": {
+        "gbifID": "5147187518",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 6043.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26687,
+          24.04793
+        ]
+      },
+      "properties": {
+        "gbifID": "5147296519",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26687,
+          24.04793
+        ]
+      },
+      "properties": {
+        "gbifID": "5147304518",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26687,
+          24.04793
+        ]
+      },
+      "properties": {
+        "gbifID": "5147310517",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24967,
+          24.0389
+        ]
+      },
+      "properties": {
+        "gbifID": "5147310518",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 6043.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24967,
+          24.0389
+        ]
+      },
+      "properties": {
+        "gbifID": "5147414518",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 6043.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26687,
+          24.04793
+        ]
+      },
+      "properties": {
+        "gbifID": "5147492519",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26687,
+          24.04793
+        ]
+      },
+      "properties": {
+        "gbifID": "5147497520",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1984,
+        "eventDate": "1984-07-29",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 5689.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422931,
+          24.381511
+        ]
+      },
+      "properties": {
+        "gbifID": "543683603",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1961,
+        "eventDate": "1961-06-18",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          23.5
+        ]
+      },
+      "properties": {
+        "gbifID": "476596654",
+        "_intended_name": "Hynobius sonani",
+        "species": "Hynobius sonani",
+        "scientificName": "Hynobius sonani (Maki, 1922)",
+        "year": 1961,
+        "eventDate": "1961-07-04",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 301.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.856,
+          23.468
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482300",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-02-06",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.856,
+          23.468
+        ]
+      },
+      "properties": {
+        "gbifID": "2248483076",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-02-06",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.892,
+          23.479
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482124",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-05-24",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.892,
+          23.479
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482332",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-05-24",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.886,
+          23.487
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482429",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-05-26",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.886,
+          23.487
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482566",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-05-26",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.886,
+          23.487
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482707",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2008,
+        "eventDate": "2008-05-26",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.956,
+          23.457
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482917",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2006,
+        "eventDate": "2006-08-16",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.956,
+          23.457
+        ]
+      },
+      "properties": {
+        "gbifID": "2248483213",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "BOLD:AAC0891",
+        "year": 2006,
+        "eventDate": "2006-08-16",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.798,
+          23.517
+        ]
+      },
+      "properties": {
+        "gbifID": "5147080801",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "Hynobius arisanensis Maki, 1922",
+        "year": 2006,
+        "eventDate": "2006-08-16",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": 1180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.797961,
+          23.502925
+        ]
+      },
+      "properties": {
+        "gbifID": "543683602",
+        "_intended_name": "Hynobius arisanensis",
+        "species": "Hynobius arisanensis",
+        "scientificName": "Hynobius arisanensis Maki, 1922",
+        "year": 1961,
+        "eventDate": "1961-07-04",
+        "datasetName": null,
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.396,
+          24.578
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482986",
+        "_intended_name": "Hynobius fucus",
+        "species": "Hynobius fucus",
+        "scientificName": "BOLD:AAF3867",
+        "year": 2008,
+        "eventDate": "2008-06-28",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.101,
+          24.5
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482533",
+        "_intended_name": "Hynobius fucus",
+        "species": "Hynobius fucus",
+        "scientificName": "BOLD:AAF3868",
+        "year": 2008,
+        "eventDate": "2008-07-08",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.442,
+          24.793
+        ]
+      },
+      "properties": {
+        "gbifID": "2248483010",
+        "_intended_name": "Hynobius fucus",
+        "species": "Hynobius fucus",
+        "scientificName": "BOLD:AAF3868",
+        "year": 2008,
+        "eventDate": "2008-07-25",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.444,
+          24.37
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482179",
+        "_intended_name": "Hynobius glacialis",
+        "species": "Hynobius glacialis",
+        "scientificName": "BOLD:AAI8540",
+        "year": 2007,
+        "eventDate": "2007-08-07",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.444,
+          24.37
+        ]
+      },
+      "properties": {
+        "gbifID": "2248482939",
+        "_intended_name": "Hynobius glacialis",
+        "species": "Hynobius glacialis",
+        "scientificName": "BOLD:AAI8540",
+        "year": 2007,
+        "eventDate": "2007-08-07",
+        "datasetName": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "coordinateUncertaintyInMeters": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+name: 更新並部署樹蛙地圖
+
+# 何時跑:每月 1 號 + 可手動觸發
+on:
+  schedule:
+    - cron: "0 2 1 * *"   # 每月 1 號 UTC 02:00(GBIF 上游約週級更新,月更足矣)
+  workflow_dispatch: {}
+
+# GitHub Pages 部署所需權限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時間只跑一份,新觸發不取消進行中的部署
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安裝相依(只裝 web pipeline 需要的)
+        run: pip install pygbif pandas h3
+
+      - name: 抓取 + 聚合 GBIF 資料(約 15–25 分鐘)
+        run: python fetch_multi_anuran.py
+
+      - name: 建置互動地圖
+        run: python build_deck_filter.py
+
+      - name: 組裝靜態網站
+        run: |
+          mkdir -p public
+          cp site/index.html public/index.html          # 著陸頁
+          cp site/salamander.html public/salamander.html
+          cp anuran_filter_map.html public/treefrog.html # 每月重建的樹蛙互動圖
+          cp salamander_hillshade.png public/salamander.png
+
+      - name: 上傳 Pages 成品
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

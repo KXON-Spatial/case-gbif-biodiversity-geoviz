@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 生成的地圖(放在 repo 根目錄,由腳本/CI 重建,不需版控)
+/anuran_filter_map.html
+/anuran_deck_map.html
+/anuran_h3_map.html
+/salamander_map.html
+/public/
+
+# 註:site/ 下的著陸頁、salamander_hillshade.png、資料快照(*.json/*.geojson)皆保留版控
