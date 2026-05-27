@@ -20,6 +20,11 @@ ZOOM = 7.0
 ELEV_SCALE = 35
 GBIF_DOI = ""   # 跑 Download API 取得後填入,例:"10.15468/dl.xxxxxx"
 
+# 部署網址(用於 OG / canonical;CI 部署時對應 public/treefrog.html)
+SITE_URL = "https://spatial.kxon.net"
+PAGE_PATH = "/treefrog.html"
+OG_IMAGE = f"{SITE_URL}/salamander.png"   # TODO: 之後換成樹蛙地圖的 1200x630 截圖
+
 
 def main():
     payload = json.load(open(JSON_IN, encoding="utf-8"))
@@ -44,6 +49,8 @@ def main():
         "__ELEV__": str(ELEV_SCALE),
         "__FETCHED__": payload.get("fetched") or date.today().isoformat(),
         "__DOI__": f" · DOI: {GBIF_DOI}" if GBIF_DOI else "",
+        "__PAGE_URL__": f"{SITE_URL}{PAGE_PATH}",
+        "__OG_IMAGE__": OG_IMAGE,
     }.items():
         html = html.replace(k, v)
     with open(HTML_OUT, "w", encoding="utf-8") as f:
@@ -56,7 +63,20 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>台灣樹蛙分布 · 互動篩選</title>
+<title>台灣樹蛙分布 · 互動篩選 | KXON Spatial</title>
+<meta name="description" content="4 種台灣樹蛙(莫氏、艾氏、翡翠、諸羅)的 GBIF 觀測密度。H3 六角格聚合,物種下拉 + 年代滑桿即時篩選,deck.gl + MapLibre。" />
+<link rel="canonical" href="__PAGE_URL__" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="KXON Spatial" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:title" content="台灣樹蛙分布 · 互動熱區地圖" />
+<meta property="og:description" content="4 種樹蛙、29,010 筆 GBIF 觀測,H3 聚合後即時篩選物種與年代。一眼看出各種的棲地隔離。" />
+<meta property="og:url" content="__PAGE_URL__" />
+<meta property="og:image" content="__OG_IMAGE__" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="台灣樹蛙分布 · 互動熱區地圖" />
+<meta name="twitter:description" content="GBIF + H3 + deck.gl。4 種樹蛙,物種/年代即時篩選。" />
+<meta name="twitter:image" content="__OG_IMAGE__" />
 <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/nouislider@15/dist/nouislider.min.css" rel="stylesheet" />
 <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
@@ -94,8 +114,8 @@ TEMPLATE = r"""<!DOCTYPE html>
 <body>
 <div id="map"></div>
 <div id="title" class="panel">
-  <h1>台灣樹蛙分布 · 互動篩選</h1>
-  <p>GBIF occurrence · 資料更新 __FETCHED__ · H3 聚合 · deck.gl + MapLibre</p>
+  <h1>台灣樹蛙分布</h1>
+  <p>GBIF occurrence · 資料更新 __FETCHED__</p>
 </div>
 <div id="controls" class="panel">
   <label>物種</label>

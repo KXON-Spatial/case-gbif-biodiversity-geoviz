@@ -20,6 +20,12 @@ CENTER = [120.9, 23.7]   # lng, lat
 ZOOM = 7.2
 ELEV_SCALE = 22
 
+# OG / canonical(此頁目前未進 CI 部署流程,留作將來獨立發布用)
+SITE_URL = "https://spatial.kxon.net"
+PAGE_PATH = "/eiffingeri.html"
+OG_IMAGE = f"{SITE_URL}/salamander.png"
+OG_DESC = "艾氏樹蛙 GBIF 11,158 筆觀測,H3 res7 聚合成 792 格,deck.gl 3D 擠出 + MapLibre 暗色底圖。"
+
 
 def main():
     gj = json.load(open(GEOJSON_IN, encoding="utf-8"))
@@ -39,6 +45,9 @@ def main():
         "__ELEV__": str(ELEV_SCALE),
         "__MAXCOUNT__": str(max_count),
         "__FETCHED__": date.today().isoformat(),
+        "__PAGE_URL__": f"{SITE_URL}{PAGE_PATH}",
+        "__OG_IMAGE__": OG_IMAGE,
+        "__OG_DESC__": OG_DESC,
     }.items():
         html = html.replace(k, v)
 
@@ -52,7 +61,20 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>__TITLE__</title>
+<title>__TITLE__ | KXON Spatial</title>
+<meta name="description" content="__OG_DESC__" />
+<link rel="canonical" href="__PAGE_URL__" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="KXON Spatial" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:title" content="__TITLE__" />
+<meta property="og:description" content="__OG_DESC__" />
+<meta property="og:url" content="__PAGE_URL__" />
+<meta property="og:image" content="__OG_IMAGE__" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="__TITLE__" />
+<meta name="twitter:description" content="__OG_DESC__" />
+<meta name="twitter:image" content="__OG_IMAGE__" />
 <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet" />
 <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/deck.gl@9/dist.min.js"></script>

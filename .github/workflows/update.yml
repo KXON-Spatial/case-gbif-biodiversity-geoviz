@@ -39,6 +39,7 @@ jobs:
       - name: 組裝靜態網站
         run: |
           mkdir -p public
+          cp site/CNAME public/CNAME                    # GitHub Pages custom domain
           cp site/index.html public/index.html          # 著陸頁
           cp site/salamander.html public/salamander.html
           cp anuran_filter_map.html public/treefrog.html # 每月重建的樹蛙互動圖
